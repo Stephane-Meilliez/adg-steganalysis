@@ -1,0 +1,27 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Données et modèles (volumineux / licence tierce — hors dépôt) =====
+*.parquet
+*.csv
+*.tsv
+*.bin
+*.safetensors
+data/
+dataset_mistral7b/
+
+# ===== Résidus de copie du dossier de travail =====
+old/
+utils/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
